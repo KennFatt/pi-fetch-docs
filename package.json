@@ -1,0 +1,72 @@
+{
+  "name": "pi-fetch-docs",
+  "version": "0.0.1",
+  "description": "A Pi coding agent extension that fetches and cleans documentation from any public HTTPS URL, returning clean readable Markdown-formatted text.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennFatt/pi-fetch-docs.git"
+  },
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "agent",
+    "extension",
+    "fetch-docs",
+    "documentation",
+    "docs"
+  ],
+  "author": "Kennan Fattah <kennfatt@gmail.com>",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/KennFatt/pi-fetch-docs/issues"
+  },
+  "homepage": "https://github.com/KennFatt/pi-fetch-docs#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "0.79.1",
+    "@earendil-works/pi-coding-agent": "0.79.1",
+    "@earendil-works/pi-tui": "0.79.1"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@earendil-works/pi-ai": "0.79.1",
+    "@earendil-works/pi-coding-agent": "0.79.1",
+    "@earendil-works/pi-tui": "0.79.1",
+    "@types/node": "^25.5.0",
+    "@vitest/coverage-v8": "^4.1.2",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  },
+  "overrides": {
+    "@anthropic-ai/sdk": "0.80.0",
+    "@aws-sdk/client-bedrock-runtime": "3.1020.0",
+    "@smithy/node-http-handler": "4.5.1",
+    "@google/genai": "1.46.0",
+    "@mistralai/mistralai": "2.1.2",
+    "get-east-asian-width": "1.5.0",
+    "hosted-git-info": "9.0.2",
+    "jiti": "2.6.1",
+    "minimatch": "10.2.4",
+    "undici": "7.24.6",
+    "yaml": "2.8.3"
+  }
+}
