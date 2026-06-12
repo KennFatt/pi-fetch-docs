@@ -1,6 +1,6 @@
 # pi-fetch-docs
 
-![Demo video](./docs/pi-fetch-docs-nodejs.mp4)
+![Demo video](./docs/pi-fetch-docs-nodejs.gif)
 
 A Pi coding agent tool that enables models to fetch the latest technical documentation (or any public web docs) at runtime — no stale training data, no guessing.
 
