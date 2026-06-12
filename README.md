@@ -1,6 +1,8 @@
 # pi-fetch-docs
 
-A Pi coding agent extension that fetches and cleans documentation from any public HTTPS URL. Returns cleaned, readable Markdown-formatted text.
+![Demo video](./docs/pi-fetch-docs-nodejs.mp4)
+
+A Pi coding agent tool that enables models to fetch the latest technical documentation (or any public web docs) at runtime — no stale training data, no guessing.
 
 ## What it does
 
